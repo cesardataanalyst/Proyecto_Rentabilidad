@@ -321,6 +321,10 @@ Estas líneas representan **oportunidades de análisis y gestión**, no conclusi
 
 # Evidencia visual
 
+Los principales resultados del análisis se presentan mediante visualizaciones desarrolladas en Python y un dashboard interactivo en Power BI.
+
+## Análisis exploratorio y rentabilidad
+
 Los principales gráficos del análisis se encuentran en la carpeta [`images`](images/):
 
 | Análisis                       | Visualización                                          |
@@ -334,6 +338,30 @@ Los principales gráficos del análisis se encuentran en la carpeta [`images`](i
 | Productos con mayores pérdidas | [Ver gráfico](images/top_productos_perdidas.png)       |
 | Rentabilidad por región        | [Ver gráfico](images/rentabilidad_region.png)          |
 | Rentabilidad por segmento      | [Ver gráfico](images/rentabilidad_segmento.png)        |
+
+## Dashboard en Power BI
+
+El dashboard complementa el análisis mediante tres páginas orientadas al seguimiento de resultados, rentabilidad y principales fuentes de pérdida.
+
+### 1. Executive Overview
+
+Vista general de los principales indicadores de desempeño, incluyendo ventas, utilidad, margen, órdenes y clientes, junto con la evolución mensual y el análisis por categorías, regiones y segmentos.
+
+![Executive Overview](images/powerbi_executive_overview.png)
+
+### 2. Rentabilidad y descuentos
+
+Análisis de la relación observada entre los niveles de descuento, las ventas y la rentabilidad, con desglose por categoría.
+
+![Rentabilidad y descuentos](images/powerbi_rentabilidad_descuentos.png)
+
+### 3. Productos y pérdidas
+
+Identificación de productos y subcategorías con mayores niveles de utilidad y pérdidas, facilitando el análisis de los principales focos de deterioro de rentabilidad.
+
+![Productos y pérdidas](images/powerbi_productos_perdidas.png)
+
+El archivo `.pbix` del dashboard se encuentra disponible en [`powerbi/Proyecto_rentabilidad_Proyecto_1.pbix`](powerbi/Proyecto_rentabilidad_Proyecto_1.pbix).
 
 ---
 
